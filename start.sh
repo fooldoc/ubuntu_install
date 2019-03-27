@@ -58,10 +58,15 @@ echo "请选择要执行的操作"
 echo
 echo "############################################################################"
 echo "1) 一键无脑安装UBUNTU所需软件"
+echo "2) 安装jdk"
 read menu_select
 case $menu_select in
 1)
 	install_software
+	echo "恭喜您！顺利安装完成！如有疑问请联系【作者EattingWind】"
+	;;
+2)
+	install_jdk
 	echo "恭喜您！顺利安装完成！如有疑问请联系【作者EattingWind】"
 	;;
 esac

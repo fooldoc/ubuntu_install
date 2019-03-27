@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=firefox
+Name[zh_CN]=firefox
+Comment=firefox
+Exec=/opt/firefox/firefox
+Icon=/opt/firefox/browser/icons/mozicon128.png
+Terminal=false
+Type=Application
+Categories=Application;
+Encoding=UTF-8
+StartupNotify=true

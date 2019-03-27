@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Charles
+Name[zh_CN]=Charles
+Comment=Charles editor
+#Exec=/opt/charles/bin/charles
+Exec=/opt/charles/bin/charles
+Icon=/opt/charles/icon/charles_icon.svg
+Terminal=false
+Type=Application
+Categories=Application;
+Encoding=UTF-8
+StartupNotify=true
+

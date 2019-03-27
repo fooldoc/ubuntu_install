@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=genymotion2.3
+Name[zh_CN]=genymotion2.3
+Comment=genymotion2.3
+Exec=/opt/genymotion/genymotion
+Icon=/opt/genymotion/icons/icon.png
+Terminal=false
+Type=Application
+Categories=Application;
+Encoding=UTF-8
+StartupNotify=true

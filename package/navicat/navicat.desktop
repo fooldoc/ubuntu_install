@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=navicat
+Name[zh_CN]=navicat
+Comment=navicat
+Exec=/opt/navicat111_mysql_cs/start_navicat
+Icon=/opt/navicat111_mysql_cs/navicat.jpg
+Terminal=false
+Type=Application
+Categories=Application;
+Encoding=UTF-8
+StartupNotify=true

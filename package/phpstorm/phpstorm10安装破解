@@ -1,0 +1,54 @@
+--------------安装-------------------
+直接解压运行，10的版本不需要安装jdk。
+---------------破解--------------------
+phpstorm已经升级到10.0，原注册码失效，10.0注册方法：
+注册时选择“License server”输入
+http://idea.lanyus.com/
+点击“OK”快速激活JetBrains系列产品
+
+
+
+
+
+
+
+
+-------------------以下为旧版安装-----------------
+[安装phpstorm需要jdk6 以上版本]
+记住解压后的目录 是一个随机的目录 名字最好不要改,不然桌面启动会失败
+
+-------------------------------------
+安装jdk 
+方法一：【用这个】
+sudo apt-get install openjdk-8-jre    
+妈的我的新机子 貌似有安装 jdk 的样子 安装了 jdk8之后就不行了 解决:
+sudo apt-get remove openjdk-8-jre    然后
+方法二：【这个下载慢】
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
+------------------------------------
+1.sudo tar zxvf PhpStorm-8.0.1.tar.gz    【解压的目录就是安装的目录】
+2 cd PhpStorm-138.2001.2328/bin
+3.sudo ./phpstorm.sh
+
+sudo ./phpstorm.sh  启动
+
+-----------无法解决桌面启动图标问题----------
+最终使用：
+1.sudo vim ~/.bashrc  
+2.在最后一行加上 
+alias phpstorm='sh /opt/PhpStorm-138.2001.2328/bin/phpstorm.sh >/dev/null >/dev/null 2>&1 &'
+3.更新.bashrc 
+source ~/.bashrc  
+
+这样在终端中输入phpstorm 就可以直接打开phpstorm了,而且关闭终端,也不会关闭phpstorm,
+
+
+
+---------安装 创建桌面启动的工具-------
+sudo apt-get install --no-install-recommends gnome-panel 
+gnome-desktop-item-edit ~/ --create-new   启动创建 启动软件的工具
+
+创建后便会在用户目录home下创建一个启动图标了， 然后锁定到快速启动项就可以了

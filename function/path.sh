@@ -12,9 +12,7 @@ charles_path="$ubuntu_software_path/charles/charles4.0.tar.gz"
 genymotion_path="$ubuntu_software_path/genymotion/genymotion.bin"
 navicat_path="$ubuntu_software_path/navicat/navicat.tar.gz"
 navicat_run_path="$opt_path/navicat111_mysql_cs"
-
-
-virtualbox_path="$package_dir/virtualbox/virtualbox.deb"
+virtualbox_path="$ubuntu_software_path/virtualbox/virtualbox.deb"
 
 
 jdk_path="$install_dir/jdk-8u31-linux-x64.tar.gz"

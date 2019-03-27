@@ -2,16 +2,11 @@
 
 install_base(){
 sudo apt-get install vim -y
-if check_sys packageManager apt;then
-   	apt-get update
-   	apt-get install wget -y
-elif check_sys packageManager yum; then
-	yum  update -y
-    yum  install wget -y
-fi
-
+apt-get update
+apt-get install wget -y
+apt-get install unzip -y
 #删除自带的火狐浏览器重新自己安装
-sudo apt-get remove firefox -y
+#sudo apt-get remove firefox -y
 #删除libreoffice
 sudo apt-get remove libreoffice-common -y
 #删除Amazon的链接
@@ -71,8 +66,6 @@ sogoupinyin=`Download_Files http://cdn2.ime.sogou.com/dl/index/1524572264/sogoup
 
 cd $install_dir/
 sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb
-echo 222;
-exit;
 software=`Download_Files https://github.com/EattingWind/ubuntu_software/archive/master.zip master.zip`
 cd $install_dir/
 sudo unzip master.zip

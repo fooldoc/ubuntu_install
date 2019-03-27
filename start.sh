@@ -62,6 +62,9 @@ echo "2) 安装jdk"
 read menu_select
 case $menu_select in
 1)
+    rm -rf $install_dir/*
+    mkdir -p $install_dir
+    chmod 777 -R $cur_dir
 	install_software
 	echo "恭喜您！顺利安装完成！如有疑问请联系【作者EattingWind】"
 	;;
@@ -74,9 +77,7 @@ esac
 
 ########从这里开始运行程序######
 #rm -rf /tmp/EattingWind_ubuntu.log
-rm -rf $install_dir/*
-mkdir -p $install_dir
-chmod 777 -R $cur_dir
+
 main 2>&1 | tee -a /tmp/EattingWind_ubuntu.log
 
 

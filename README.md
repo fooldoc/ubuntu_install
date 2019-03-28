@@ -37,6 +37,7 @@
 * 安装 firefox(自动删除ubuntu自带的垃圾火狐浏览器,重新下载最新的火狐)
 * 安装 浏览器flash
 * 安装 chrome
+* 安装 phpstorm(可选)
 
 结语
 ========

@@ -6,7 +6,6 @@
 安装软件列表
 ========
 * 安装清理软件 Ubuntu-tweak 
-* 安装清理软件　Ubuntu-tweak
 * 安装语言支持
 * 安装分屏终端 terminator
 * 安装SSH客户端 openssh-client
@@ -19,4 +18,6 @@
 * 安装虚拟机　virtialBox
 * 安装 navicat
 * 安装 JDK 1.8
-* 安装 virtialBox
+* 安装 firefox(自动删除ubuntu自带的垃圾火狐浏览器,重新下载最新的火狐)
+* 安装 浏览器flash
+* 安装 chrome

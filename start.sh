@@ -59,6 +59,7 @@ echo
 echo "############################################################################"
 echo "1) 一键无脑安装UBUNTU所需软件"
 echo "2) 安装jdk"
+echo "3) 安装phpstorm2018稳定版"
 read menu_select
 case $menu_select in
 1)
@@ -70,6 +71,10 @@ case $menu_select in
 	;;
 2)
 	install_jdk
+	echo "恭喜您！顺利安装完成！如有疑问请联系【作者EattingWind】"
+	;;
+3)
+	install_phpstorm
 	echo "恭喜您！顺利安装完成！如有疑问请联系【作者EattingWind】"
 	;;
 esac

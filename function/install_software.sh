@@ -1,5 +1,11 @@
 #!/bin/sh
 
+install_phpstorm(){
+phpstorm_run=`Download_Files https://download.jetbrains.8686c.com/webide/PhpStorm-2018.3.5.tar.gz PhpStorm-2018.3.5.tar.gz`
+#安装phpstorm
+cd $install_dir/
+tar zxvf $phpstorm_path -C $opt_path/
+}
 install_base(){
 sudo apt-get install vim -y
 apt-get update

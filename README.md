@@ -21,3 +21,11 @@
 * 安装 firefox(自动删除ubuntu自带的垃圾火狐浏览器,重新下载最新的火狐)
 * 安装 浏览器flash
 * 安装 chrome
+
+结语
+========
+名称：一键安装ubuntu软件包
+
+作者：EattingWind
+
+邮箱：949477774@qq.com

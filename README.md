@@ -48,3 +48,5 @@
 博客：http://www.fooldoc.com
 
 邮箱：949477774@qq.com
+
+github：https://github.com/fooldoc/ubuntu_install

@@ -43,6 +43,8 @@
 ========
 名称：一键安装ubuntu软件包
 
-作者：EattingWind
+作者：fooldoc-傻瓜文档
+
+博客：http://www.fooldoc.com
 
 邮箱：949477774@qq.com

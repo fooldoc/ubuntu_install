@@ -119,7 +119,7 @@ eval echo -e "your selection \$${soft}_install"
 }
 
 
-#监控编译安装中是否有错误，有错误就停止安装,并把错误写入到文件/tmp/EattingWind_fwq.log
+#监控编译安装中是否有错误，有错误就停止安装,并把错误写入到文件/tmp/fooldoc_fwq.log
 error_detect(){
 local command=$1
 local cur_soft=`pwd | awk -F'/' '{print $NF}'`
@@ -129,8 +129,8 @@ if [ $? != 0 ];then
 	version=`cat /proc/version`
 	architecture=`uname -m`
 	mem=`free -m`
-	cat >>/tmp/EattingWind_fwq.log<<EOF
-	EattingWind_fwq errors:
+	cat >>/tmp/fooldoc_fwq.log<<EOF
+	fooldoc_fwq errors:
 	distributions:$distro
 	architecture:$architecture
 	version:$version
@@ -148,7 +148,7 @@ if [ $? != 0 ];then
 EOF
 	echo "#########################################################"
 	echo "failed to install $cur_soft."    
-	echo "执行安装错误！请将错误信息文件：/tmp/EattingWind_fwq.log发送给本作者949477774@qq.com"
+	echo "执行安装错误！请将错误信息文件：/tmp/fooldoc_fwq.log发送给本作者949477774@qq.com"
 	echo "email:949477774@qq.com"
 	echo "#########################################################"
 	exit 1
